@@ -6,7 +6,7 @@ var https = require('https');
 require('https://raw.githubusercontent.com/AndreyNesterenko2020/PIXELARENA/main/js/weaponTypes.js');
 require('https://raw.githubusercontent.com/AndreyNesterenko2020/PIXELARENA/main/js/map_utilities.js');
 require('https://raw.githubusercontent.com/AndreyNesterenko2020/PIXELARENA/main/js/mapLoader.js');
-var options = {noAnticheat: true, chatListen: false, infAmmo: false};
+var options = {noAnticheat: true, chatListen: false, infAmmo: true};
 var commands = {
   toggleAnticheat: function(parameter){
     options.noAnticheat = !options.noAnticheat;
